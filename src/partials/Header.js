@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Toga from '../icons/Toga'
 
 function Header() {
+  const [isExpanded, toggleExpansion] = useState(false);
 
   const [top, setTop] = useState(true);
 
@@ -18,18 +19,32 @@ function Header() {
   return (
     <header className={`fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${!top && 'bg-white blur shadow-lg'}`}>
       <div className="max-w-6xl mx-auto px-5 sm:px-6">
-        <div className="flex items-center justify-between h-16 md:h-20">
+        <div className="flex flex-wrap items-center justify-between max-w-4xl mx-auto p-4 md:p-8">
 
           {/* Site branding */}
-          <div className="flex-shrink-0 mr-4">
+          <div className="mr-4">
             {/* Logo */}
             <Link to="/" className="block" aria-label="toga">
               <Toga />
             </Link>
           </div>
 
+          <button
+            className="block md:hidden border border-blue flex items-center px-3 py-2 rounded text-blue"
+            onClick={() => toggleExpansion(!isExpanded)}
+          >
+            <svg
+              className="fill-current h-3 w-3"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+
           {/* Site navigation */}
-          <nav className="flex flex-grow">
+          <nav className={`${ isExpanded ? `block` : `hidden`} md:block md:flex md:items-center w-full md:w-auto`}>
             <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li>
                 <Link to="/signin" className="font-medium text-gray-600 hover:text-red-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Sign in</Link>
@@ -43,9 +58,7 @@ function Header() {
                 </Link>
               </li>
             </ul>
-
           </nav>
-
         </div>
       </div>
     </header>
