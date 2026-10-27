@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import Toga from '../icons/Toga'
+import TolajideLance from '../icons/TolajideLance'
 
 function Header() {
   const [isExpanded, toggleExpansion] = useState(false);
@@ -24,8 +24,8 @@ function Header() {
           {/* Site branding */}
           <div className="mr-4">
             {/* Logo */}
-            <Link to="/" className="block" aria-label="toga">
-              <Toga />
+            <Link to="/" className="block" aria-label="Tolajide Lance">
+              <TolajideLance />
             </Link>
           </div>
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Toga from '../icons/Toga'
+import TolajideLance from '../icons/TolajideLance'
 
 function Footer() {
   return (
@@ -14,8 +14,8 @@ function Footer() {
           <div className="sm:col-span-12 lg:col-span-3">
             <div className="mb-2">
               {/* Logo */}
-              <Link to="/" className="inline-block" aria-label="toga">
-                <Toga />
+              <Link to="/" className="inline-block" aria-label="Tolajide Lance">
+                <TolajideLance />
               </Link>
             </div>
             <div className="text-sm text-gray-600">
@@ -25,22 +25,22 @@ function Footer() {
 
           {/* 2nd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Products</h6>
+            <h6 className="text-gray-800 font-medium mb-2">Services</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-red-900 transition duration-150 ease-in-out">Web Studio</Link>
+                <Link to="#" className="text-gray-600 hover:text-red-900 transition duration-150 ease-in-out">Mobile App Development</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-red-900 transition duration-150 ease-in-out">DynamicBox Flex</Link>
+                <Link to="#" className="text-gray-600 hover:text-red-900 transition duration-150 ease-in-out">Web App Development</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-red-900 transition duration-150 ease-in-out">Programming Forms</Link>
+                <Link to="#" className="text-gray-600 hover:text-red-900 transition duration-150 ease-in-out">UI/UX Design</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-red-900 transition duration-150 ease-in-out">Integrations</Link>
+                <Link to="#" className="text-gray-600 hover:text-red-900 transition duration-150 ease-in-out">API & Integrations</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-red-900 transition duration-150 ease-in-out">Command-line</Link>
+                <Link to="#" className="text-gray-600 hover:text-red-900 transition duration-150 ease-in-out">Maintenance & Support</Link>
               </li>
             </ul>
           </div>
@@ -92,7 +92,7 @@ function Footer() {
           {/* 5th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
             <h6 className="text-gray-800 font-medium mb-2">Subscribe</h6>
-            <p className="text-sm text-gray-600 mb-4">Get the latest news and articles to your inbox every month.</p>
+            <p className="text-sm text-gray-600 mb-4">Get app development tips and studio news in your inbox every month.</p>
             <form>
               <div className="flex flex-wrap mb-4">
                 <div className="w-full">

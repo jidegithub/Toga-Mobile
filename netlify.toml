@@ -1,0 +1,10 @@
+[build]
+  command = "npm install --no-audit --no-fund --legacy-peer-deps && npm run build"
+  publish = "build"
+
+[build.environment]
+  NODE_VERSION = "22"
+  # react-scripts 4 uses webpack 4, which needs the legacy OpenSSL provider on Node 17+
+  NODE_OPTIONS = "--openssl-legacy-provider"
+  # React 16.13 has no react/jsx-runtime; keep the classic JSX transform
+  DISABLE_NEW_JSX_TRANSFORM = "true"

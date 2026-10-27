@@ -13,8 +13,8 @@ function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">How Toga works</h2>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <h2 className="h2 mb-4">How Tolajide Lance works</h2>
+            <p className="text-xl text-gray-600">A proven, transparent process that takes your app from first conversation to launch day, with clear milestones and regular updates at every step.</p>
           </div>
 
           {/* Items */}
@@ -34,7 +34,7 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Initial Contact</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p className="text-gray-600 text-center">We listen to your goals, your users and your timeline to understand exactly what you need.</p>
             </div>
 
             {/* 2nd item */}
@@ -50,7 +50,7 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Discovery Session</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p className="text-gray-600 text-center">We map requirements, features and tech stack into a clear product roadmap and estimate.</p>
             </div>
 
             {/* 3rd item */}
@@ -65,7 +65,7 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Contracting</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p className="text-gray-600 text-center">Agree on scope, milestones and a fixed budget, with no hidden costs or surprises.</p>
             </div>
 
             {/* 4th item */}
@@ -82,7 +82,7 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Fast Prototyping</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p className="text-gray-600 text-center">Clickable prototypes and MVP wireframes let you validate the idea before full development.</p>
             </div>
 
             {/* 5th item */}
@@ -97,7 +97,7 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Design Phase</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p className="text-gray-600 text-center">Our designers craft intuitive, on-brand UI/UX for web, iOS and Android.</p>
             </div>
 
             {/* 6th item */}
@@ -114,7 +114,7 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Develop & Launch</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p className="text-gray-600 text-center">Agile development, rigorous QA testing, App Store launch and ongoing maintenance.</p>
             </div>
 
           </div>

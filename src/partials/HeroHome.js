@@ -33,12 +33,12 @@ function HeroHome() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Take your business <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-900 to-teal-400">to the next level</span></h1>
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Build your next app <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-900 to-teal-400">with Tolajide Lance</span></h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Our Bandwidth is unbeatable, once you are connected, you get the speed forever.</p>
+              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">We design and build fast, secure, scalable web and mobile apps for startups and growing businesses, so you can launch sooner and delight your users.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <a className="btn text-white bg-indigo-900 hover:bg-indigo-800 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
+                  <a className="btn text-white bg-indigo-900 hover:bg-indigo-800 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Get a free quote</a>
                 </div>
                 <div>
                   <a className="btn text-white bg-red-900 hover:bg-red-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
