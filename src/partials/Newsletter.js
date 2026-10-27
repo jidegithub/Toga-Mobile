@@ -39,8 +39,8 @@ function Newsletter() {
 
               {/* CTA content */}
               <div className="text-center lg:text-left lg:max-w-xl">
-                <h3 className="h3 text-white mb-2">Powering your business</h3>
-                <p className="text-gray-300 text-lg mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit nemo expedita voluptas culpa sapiente.</p>
+                <h3 className="h3 text-white mb-2">Ready to build your app?</h3>
+                <p className="text-gray-300 text-lg mb-6">Get product tips, case studies and app development insights delivered to your inbox. Or reach out and let’s turn your idea into a working product.</p>
 
                 {/* CTA form */}
                 <form className="w-full lg:w-auto">
@@ -50,7 +50,7 @@ function Newsletter() {
                   </div>
                   {/* Success message */}
                   {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
-                  <p className="text-sm text-gray-400 mt-3">7 days free trial. No credit card required.</p>
+                  <p className="text-sm text-gray-400 mt-3">Free project consultation. No commitment required.</p>
                 </form>
               </div>
 
